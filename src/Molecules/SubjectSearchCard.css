@@ -1,0 +1,19 @@
+.subjectSearchCard{
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    background-color: var(--mainColor);
+    border-radius: 5px;
+    gap: 5px;
+}
+
+.subject-search-card-button-container{
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.subject-search-card-button{
+    width: 40%;
+}

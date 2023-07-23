@@ -1,0 +1,10 @@
+.button{
+    width: 40% !important;
+    background-color: #3A98B9 !important;
+    
+}
+
+.buttonContainer {
+    margin-top: 20px;
+    justify-content: space-around;
+}

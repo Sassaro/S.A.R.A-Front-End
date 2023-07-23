@@ -1,0 +1,20 @@
+.customButton{
+    background-color: var(--brightSecondaryColor) !important;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--secondaryColor);
+}
+
+.customButton:hover{
+    background-color: var(--secondaryColor) !important;
+}
+
+.danger {
+    background-color: red !important;
+    border-color: darkred !important;
+    color: white;
+}
+
+.danger:hover {
+    background-color: darkred !important;
+}

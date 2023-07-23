@@ -1,0 +1,40 @@
+.checkboxes{
+    width: 100%;
+}
+.checkboxContainer{
+    width: 15%;
+    height: 10% !important;
+    padding: 25px;
+}
+.dropdownItem{
+    justify-content: space-between;
+    background-color: var(--mainColor) !important;
+}
+
+.pageSelection{
+    display: none;
+    gap: 20px;
+    padding: 10px;
+}
+
+.buttonGroup{
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.dropdownList{
+    background-color: var(--mainColor) !important;
+}
+
+
+@media (min-width: 768px){
+    .pageSelection{
+        display: flex;
+    }
+
+    .dropdown{
+        display: none !important;
+    }
+}

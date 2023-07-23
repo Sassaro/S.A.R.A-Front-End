@@ -1,0 +1,39 @@
+.tornavias{
+    width: 100%;
+    height: 100%;
+    scale: 1;
+}
+
+.cardInfo{
+    display: hidden!important;
+    width: 300px;
+    height: 100px;
+    position: fixed;
+}
+
+.svgContainer{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer {
+    border: 1px black solid;
+  
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  .imageHolder {
+  
+    height: 100%;
+    display:flex;
+    align-items: center;
+  }
+  .imageItself {
+    height: 100%;
+    margin: auto;
+    align-self: center;
+  
+  }

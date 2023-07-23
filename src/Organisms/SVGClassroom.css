@@ -1,0 +1,5 @@
+.line-break::after {
+    content: "\A" !important;
+    white-space: pre !important;
+    font-size: 2px !important;
+}

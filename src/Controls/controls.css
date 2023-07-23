@@ -1,0 +1,14 @@
+.mapControls{
+    position: fixed;
+    right: 0px;
+    z-index: 10;
+}
+
+@media (min-width: 768px) {
+    
+    .mapControls{
+        flex-direction: row;
+    }
+    
+
+}

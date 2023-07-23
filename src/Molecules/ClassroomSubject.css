@@ -1,0 +1,9 @@
+.infoSection{
+    font-size: 20px;
+}
+
+.subjectCard{
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 10px;
+}

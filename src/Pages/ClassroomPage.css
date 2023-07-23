@@ -1,0 +1,25 @@
+.classroomInfo{
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infoTitle{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.calendarButton{
+    background-color: var(--brightMainColor) !important;
+    width: min-content;
+}
+
+.botoneraAsignacion{
+
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+
+}

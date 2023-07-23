@@ -1,0 +1,63 @@
+.adminOption{
+    flex-direction: column;
+    width: 100%;
+}
+
+.adminOptionForm{
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.tableOptions{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    height: 67px;
+}
+
+.iconButton{
+    background-color: none !important;
+    background: none !important;
+}
+
+td, th{
+    border-color: black !important;
+}
+
+.iconButton:hover{
+    color: blue
+}
+
+.delete{
+    color: red;
+}
+
+.delete:hover{
+    color: brown;
+}
+
+td{
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    
+    .subjectForm{
+        flex-direction: row;
+    }
+    
+    .adminOptionForm{
+        flex-direction: column;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .adminOption{
+        flex-direction: column;
+        max-width: 500px;
+    }
+    
+
+}

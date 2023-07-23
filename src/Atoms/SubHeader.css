@@ -1,0 +1,25 @@
+.subHeader {
+    align-items: center;
+    padding: 10px;
+    background-color: var(--brightSecondaryColor);
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textContainer{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textDecoration{
+    width: 80%;
+    height: 7px;
+    background-color: white;
+}
